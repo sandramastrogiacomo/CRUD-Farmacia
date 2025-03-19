@@ -4,10 +4,13 @@ import java.time.LocalDateTime;
 
 import org.hibernate.annotations.UpdateTimestamp;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -29,11 +32,15 @@ public class Produto {
 	@Size(min = 10, max = 1000, message = "O atributo descrição deve conter no mínimo 10 e no máximo 1000 caracteres!")
 	private String descricao;
 	
+	@NotNull(message = "O atributo preço é obrigatório!")
+	private double preco;
+	
 	@UpdateTimestamp
 	private LocalDateTime data;
 	
-	@NotNull(message = "O atributo preço é obrigatório!")
-	private double preco;
+	@ManyToOne
+	@JsonIgnoreProperties("produto")
+	private Categoria categoria;
 
 	public Long getId() {
 		return id;
@@ -59,6 +66,14 @@ public class Produto {
 		this.descricao = descricao;
 	}
 
+	public double getPreco() {
+		return preco;
+	}
+
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+		
 	public LocalDateTime getData() {
 		return data;
 	}
@@ -67,14 +82,13 @@ public class Produto {
 		this.data = data;
 	}
 
-	public double getPreco() {
-		return preco;
+	public Categoria getCategoria() {
+		return categoria;
 	}
 
-	public void setPreco(double preco) {
-		this.preco = preco;
+	public void setCategoria(Categoria categoria) {
+		this.categoria = categoria;
 	}
-	
-	
-		
+
+			
 }
