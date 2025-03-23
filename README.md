@@ -42,7 +42,9 @@ A navegação foi pensada para ser intuitiva, facilitando a administração dos 
 📝 Este projeto está licenciado sob a MIT License.
 
 📬 Contato
+
 🔗 GitHub: sandramastrogiacomo
+
 🔗 LinkedIn: Sandra Mastrogiacomo
 
 📌 Este projeto está em constante evolução. Acompanhe as atualizações! 🚀
