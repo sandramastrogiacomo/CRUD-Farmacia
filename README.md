@@ -32,8 +32,11 @@ Este projeto não possui frontend, os testes são feitos via Insomnia ou Postman
 Após a execução da aplicação, você poderá:
 
 ✅ Criar novos registros de produtos.
+
 🔍 Visualizar a lista completa de produtos e seus detalhes.
+
 ✏️ Atualizar informações de produtos existentes.
+
 🗑️ Deletar registros indesejados.
 
 A navegação foi pensada para ser intuitiva, facilitando a administração dos dados da farmácia.
