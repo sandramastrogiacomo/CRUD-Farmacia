@@ -17,6 +17,7 @@ Este é um projeto de **API REST** para gerenciamento de farmácias, implementan
 ✔ Atualizar informações de um produto existente  
 ✔ Remover produtos da farmácia  
 
+
 📡 Testes com Insomnia
 
 Este projeto não possui frontend, os testes são feitos via Insomnia ou Postman.
@@ -28,6 +29,7 @@ Este projeto não possui frontend, os testes são feitos via Insomnia ou Postman
 🔹 Atualizar produto: PUT http://localhost:8080/produtos/{id}
 
 🔹 Remover produto: DELETE http://localhost:8080/produtos/{id}
+
 
 📌 Uso
 
@@ -42,6 +44,7 @@ Após a execução da aplicação, você poderá:
 🗑️ Deletar registros indesejados.
 
 A navegação foi pensada para ser intuitiva, facilitando a administração dos dados da farmácia.
+
 
 🤝 Contribuições
 
