@@ -34,9 +34,11 @@ Após a execução da aplicação, você poderá:
 A navegação foi pensada para ser intuitiva, facilitando a administração dos dados da farmácia.
 
 🤝 Contribuições
+
 💡 Contribuições são bem-vindas! Se você tem sugestões, melhorias ou deseja reportar algum problema, por favor, abra uma issue ou envie um pull request.
 
 📜 Licença
+
 📝 Este projeto está licenciado sob a MIT License.
 
 📬 Contato
