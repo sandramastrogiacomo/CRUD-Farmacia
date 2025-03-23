@@ -16,6 +16,7 @@ Este é um projeto de **API REST** para gerenciamento de farmácias, implementan
 ✔ Remover produtos da farmácia  
 
 📡 Testes com Insomnia
+
 Este projeto não possui frontend, os testes são feitos via Insomnia ou Postman.
 
 🔹 Listar produtos: GET http://localhost:8080/produtos
@@ -24,6 +25,7 @@ Este projeto não possui frontend, os testes são feitos via Insomnia ou Postman
 🔹 Remover produto: DELETE http://localhost:8080/produtos/{id}
 
 📌 Uso
+
 Após a execução da aplicação, você poderá:
 
 ✅ Criar novos registros de produtos.
@@ -37,14 +39,17 @@ A navegação foi pensada para ser intuitiva, facilitando a administração dos 
 
 💡 Contribuições são bem-vindas! Se você tem sugestões, melhorias ou deseja reportar algum problema, por favor, abra uma issue ou envie um pull request.
 
+
 📜 Licença
 
 📝 Este projeto está licenciado sob a MIT License.
+
 
 📬 Contato
 
 🔗 GitHub: sandramastrogiacomo
 
 🔗 LinkedIn: Sandra Mastrogiacomo
+
 
 📌 Este projeto está em constante evolução. Acompanhe as atualizações! 🚀
