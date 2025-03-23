@@ -20,6 +20,7 @@ Este é um projeto de **API REST** para gerenciamento de farmácias, implementan
 Este projeto não possui frontend, os testes são feitos via Insomnia ou Postman.
 
 🔹 Listar produtos: GET http://localhost:8080/produtos
+
 🔹 Adicionar produto: POST http://localhost:8080/produtos (JSON no corpo da requisição)
 🔹 Atualizar produto: PUT http://localhost:8080/produtos/{id}
 🔹 Remover produto: DELETE http://localhost:8080/produtos/{id}
